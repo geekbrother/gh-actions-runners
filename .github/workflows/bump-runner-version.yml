@@ -98,6 +98,3 @@ jobs:
           branch: "chore/bump-github-runner-${{ steps.latest.outputs.latest_tag }}"
           delete-branch: true
           reviewers: ${{ env.PR_REVIEWERS }}
-          labels: |
-            dependencies
-            automated
